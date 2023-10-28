@@ -18,7 +18,7 @@ const Form = () => {
     return (
         <div className='container mx-auto px-16'>
             <div className="">
-                <div className="card w-2/6">
+                <div className="card md:w-2/6">
                     <div className="card-body bg-white rounded-lg px-5 border">
                         <h3 className='font-semibold text-3xl'>Resistration form</h3>
                         <p>register your account here</p>

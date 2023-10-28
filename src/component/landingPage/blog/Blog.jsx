@@ -13,7 +13,7 @@ const Blog = () => {
                 <div className='bg-white rounded-md p-5'>
                     <h2 className='text-center font-bold text-4xl'><span className='border-b-2 border-red-500'>Blog</span></h2>
                     <p className='text-center mt-2 mb-6'>Encuentra los artículos relacionados a tu sector y entérate de las ultimas noticias.</p>
-                    <div className='grid box-border  grid-cols-3 gap-6'>
+                    <div className='md:grid  box-border grid-cols-3 gap-6'>
                         <div className='shadow-md hover:scale-105 transition-all'>
                             <img className='transition-all' src={banner} alt="" />
                             <div className='px-3 '>
